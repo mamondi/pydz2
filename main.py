@@ -1,9 +1,10 @@
 from colorama import Fore, Style
 
-a = "To be"
-b = f"{Fore.RED}or not{Style.RESET_ALL}"
-c = "to be"
+a = "Life is what happens"
+b = "when"
+c = "you're busy making other plans"
 
-print(a)
+print(Fore.YELLOW + a)
 print(b)
 print(c)
+print(Style.RESET_ALL + "John Lennon")
